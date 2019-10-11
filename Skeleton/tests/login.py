@@ -1,7 +1,7 @@
 
 #Idea is to create tests under this file and add the functional content in the main class based on the page object model
 import unittest, logging, json
-from Splunk_Website.main.login import LoginMain
+from Skeleton.main.login import LoginMain
 from selenium import webdriver
 
 class LoginTests(unittest.TestCase):

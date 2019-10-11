@@ -2,7 +2,7 @@ import unittest
 import HtmlTestRunner
 
 
-from Splunk_Website.tests.login import LoginTests
+from Skeleton.tests.login import LoginTests
 
 
 def suite():
