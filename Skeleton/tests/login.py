@@ -1,6 +1,8 @@
 
 #Idea is to create tests under this file and add the functional content in the main class based on the page object model
 import unittest, logging, json
+
+from Skeleton.main import jsonReader
 from Skeleton.main.login import LoginMain
 from selenium import webdriver
 
@@ -17,10 +19,9 @@ class LoginTests(unittest.TestCase):
         landing_page = LoginMain(driver)
 
     def test_InvalidLogin(self):
-        logging.warning("This test is invalid")
-        with open("../config/base.json", "r") as read_file:
-            data = json.load(read_file)
-            logging.info(data['test'])
+        logging.info("This test is invalid")
+        val = jsonReader.getvalue(key="tests", filename="base.json")
+        logging.info("The value of the key is the --> "+ val)
         landing_page.login()
         print("Testing Invalid Login")
 

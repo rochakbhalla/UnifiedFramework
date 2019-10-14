@@ -1,3 +1,9 @@
 {
-  "test": "Rochak"
+  "environment": "QA",
+  "test_bed": ["UI", "API", "Database", "smartphone"],
+  "smartphone": ["Android", "iOS"],
+  "base_url": "",
+  "api_type": ["REST", "SOAP"]
+
+
 }
