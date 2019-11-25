@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f742db-c5b1-4367-9cd6-9e30a269a12e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Skeleton/config/tests.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Skeleton/main/baseConfigBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Skeleton/main/jsonReader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Skeleton/report/TestResults_Skeleton.tests.login.LoginTests_2019-10-14_18-48-19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Skeleton/config/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Skeleton/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Skeleton/report/TestResults_setUpClass (Skeleton.tests.login_2019-10-23_18-20-47.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Skeleton/tests/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Skeleton/config/base.json" beforeDir="false" afterPath="$PROJECT_DIR$/Skeleton/config/base.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Skeleton/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/Skeleton/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Skeleton/main/baseConfigBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Skeleton/main/baseConfigBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Skeleton/report/TestResults_Skeleton.tests.login.LoginTests_2019-10-14_18-48-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/Skeleton/report/TestResults_Skeleton.tests.login.LoginTests_2019-10-23_18-22-28.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Skeleton/tests/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Skeleton/main/executor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Skeleton/tests/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Skeleton/tests/login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +37,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rochakb\PycharmProjects\UnifiedFramework\Skeleton\config" />
+      <recent name="C:\Users\rochakb\PycharmProjects\UnifiedFramework\Skeleton\main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,7 +57,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jsonReader">
+  <component name="RunManager" selected="Python.executor">
+    <configuration name="baseConfigBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UnifiedFramework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Skeleton/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Skeleton/main/baseConfigBuilder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="executor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UnifiedFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,7 +91,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Skeleton/tests/executor.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\rochakb\PycharmProjects\UnifiedFramework\Skeleton\main\executor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,8 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.jsonReader" />
         <item itemvalue="Python.executor" />
+        <item itemvalue="Python.baseConfigBuilder" />
+        <item itemvalue="Python.jsonReader" />
         <item itemvalue="Python tests.Unittests for login.LoginTests" />
       </list>
     </recent_temporary>
@@ -131,7 +162,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

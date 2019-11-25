@@ -1,6 +1,6 @@
 {
-  "environment": "QA",
-  "test_bed": ["UI", "API", "Database", "smartphone"],
+  "environment": "Prod",
+  "test_bed": ["UI", "API", "Database", "Smartphone"],
   "smartphone": ["Android", "iOS"],
   "base_url": "",
   "api_type": ["REST", "SOAP"]
