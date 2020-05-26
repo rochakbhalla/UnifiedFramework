@@ -11,8 +11,7 @@ class ConfigBuilder:
         self.filePathConfig = file_path_config
         self.config_data = self.read_json(self.filePathConfig)
 
-    @staticmethod
-    def read_json(file_path_config):
+    def read_json(self, file_path_config):
         with open(file_path_config, 'r') as keys:
             base_data = json.load(keys)
             if type(base_data) is not dict:
@@ -42,6 +41,9 @@ class ConfigBuilder:
                 pass
             print(i)
 
+    def getdriver(self, browser):
+        driver = webdriver.Firefox(firefox_binary= "C:\\Program Files\\Mozilla Firefox\\firefox.exe", executable_path="../config/geckodriver.exe")
+        
 #
 # cb = ConfigBuilder("../config/base.json")
 # # print(cb.get_env())

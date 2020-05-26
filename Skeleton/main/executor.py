@@ -1,7 +1,6 @@
 import unittest
 import HtmlTestRunner
 
-from Skeleton.main import baseConfigBuilder
 from Skeleton.tests.login import LoginTests
 
 
@@ -9,7 +8,7 @@ def suite():
 
     suite = unittest.TestSuite()
     suite.addTest(LoginTests('test_InvalidLogin'))
-    # suite.addTest(LoginTests('test_ValidLogin'))
+    suite.addTest(LoginTests('test_SearchSomething'))
 
     # or there is a way to load tests
     # get all the test from login tests

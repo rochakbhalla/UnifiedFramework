@@ -1,9 +1,5 @@
 {"Tests": {
-  "myLogin": {
-    "Test_Number": {
-      "Test_desc": "This is some random test description",
-      "Test_data": [{"key":"value"}, {"key": "value"}],
-      "Expected": "This is something expected from the tests"
-    }
-  }
-}}
+  "myLogin": ["Test_Number", {"Test_desc": "This is some random test description"}, {"Test_data": [{"key":"value"}, {"key": "value"}]},
+  {"Expected": "This is something expected from the tests"}]
+      }
+}
